@@ -22,7 +22,7 @@ CREATE TABLE Product (
 );
 
 -- validating that stock value is numeric
-select stock from Product where Product.stock REGEXP '^-?[0-9]+$';
+-- select stock from Product where Product.stock REGEXP '^-?[0-9]+$';
 
 CREATE TABLE Tag (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
