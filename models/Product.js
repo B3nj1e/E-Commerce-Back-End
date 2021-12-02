@@ -15,11 +15,11 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    name: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    trip_budget: {
+    price: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false
     },
@@ -36,7 +36,6 @@ Product.init(
         unique: false
       }
     },
-    // define columns
   },
   {
     sequelize,
