@@ -15,13 +15,14 @@ CREATE TABLE Product (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(50) NOT NULL,
     price DECIMAL NOT NULL,
-    -- default 10, validate numeric
-    stock INT NOT NULL,
-    -- default 10, validate numeric
+    stock INT NOT NULL DEFAULT 10,
     category_id INT, 
     FOREIGN KEY (category_id)
     REFERENCES Category(id)
 );
+
+-- validating that stock value is numeric
+select stock from Product where Product.stock REGEXP '^-?[0-9]+$';
 
 CREATE TABLE Tag (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
