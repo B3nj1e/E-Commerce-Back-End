@@ -45,7 +45,7 @@ THEN I am able to successfully create, update, and delete data in my database
 To use the application, please download all associated files off the [GitHub repository](https://github.com/B3nj1e/E-Commerce-Back-End). Ensure node.js is installed. In the terminal run ``npm i`` to install the dependencies, including sequelize, express, dotenv and mysql2. Before proceeding to run the application, ensure to update your user data in the ``.env.EXAMPLE`` file and then rename the file ``.env``. Once these steps have been carried out, create the database by opening the ``db`` file in the integrate terminal, log into your mysql and run ``source schema.sql``. Run ``npm run watch``, this will start the sever with the nodemon package(if you have this package installed). If you have MySQL Work Bench installed you will be able to see data in the tables under "ecommerce_db" and if you have insomina installed you will get able to run the GET, PUT, POST and DELETE HTTP requests to interact with stored data. Use localhost at PORT 3001 to access the routes. Use the POST route to enter you own data.  
 
 ## Usage Instructions
-Please click [here](https://drive.google.com/file/d/1UHRjn0ONW8JBoi3t79UhrVfK-d-u7zh0/view) to view a video tutorial on how to use this application. 
+Please click [here](https://drive.google.com/file/d/1ZSPAOSrDKITTHebAOiB9RbGiXmkbEsEy/view?usp=sharing) to view a video tutorial on how to use this application. 
 
 ## Contribution Guidelines
 If you think you can improve this application, please feel free to make contributions. I will review these changes on GitHub prior to merging them to the main branch.
